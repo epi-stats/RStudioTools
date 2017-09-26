@@ -11,9 +11,7 @@
 
 install.packages(c("miniUI", "rstudioapi", "readxl"))
 
-download.file("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.5.6.tar.gz", "RStudioTools")
-
-install.packages("RStudioTools", repos = NULL, type = "source")
+install.packages("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.5.6.tar.gz", repos=NULL, type="source", method="libcurl")
 
 # To open the documentation
 
