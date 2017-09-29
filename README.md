@@ -7,6 +7,7 @@
 # A minimum screen resolution of 1080 (height) is recommended. 
 
 # Requires R v3.3.0 or higher and RStudio v0.99.878 or higher
+# (R version v3.1 % 3.2 might work but the packge must be downloaded to the hard disk and installed manually)  
 # Run the script below in RStudio to install the package 
 
 install.packages(c("miniUI", "rstudioapi", "readxl"))
