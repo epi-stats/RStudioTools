@@ -10,9 +10,9 @@
 # (R version v3.1 % 3.2 might work but the packge must be downloaded to the hard disk and installed manually)  
 # Run the code below in RStudio to install the package 
 
-install.packages(c("miniUI", "rstudioapi", "readxl"))
+install.packages(c("miniUI", "rstudioapi"))
 
-install.packages("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.5.7.tar.gz", repos=NULL, type="source", method="libcurl")
+install.packages("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.5.8.tar.gz", repos=NULL, type="source", method="libcurl")
 
 # To open the documentation
 
