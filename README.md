@@ -12,7 +12,7 @@
 
 install.packages(c("miniUI", "rstudioapi"))
 
-install.packages("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.5.8.tar.gz", repos=NULL, type="source", method="libcurl")
+install.packages("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.5.9.tar.gz", repos=NULL, type="source", method="libcurl")
 
 # To open the documentation
 
@@ -30,7 +30,7 @@ vignette("RstudioTools_introduction", package = "RStudioTools")
 # from Stata, SPSS or SAS using the haven package.
 # The following line should resolve the problem:
 #
-# data <- data.frame(mydata) 
+# class(mydata) <- "data.frame" 
 #
 # If the problem persists, it is always be possible to write the data in ASCII
 # format and to reload it again:
