@@ -6,14 +6,13 @@ After installation, several new applications (gadgets) are available which can b
 Many important tasks can be executed through interactive menus, which will generate automatically the associated R code. 
 A minimum screen resolution of 1080 (height) is recommended. 
 
-Requires R v3.3.0 or higher and RStudio v0.99.878 or higher (recommended R v3.4 and RStudio v1.1.383)
-(R version v3.1 % 3.2 might work but the packge must be downloaded to the hard disk and installed manually)  
+Requires R v4.0.0 or higher and RStudio v0.99.878 or higher (recommended R v4.1 and RStudio v2023.x)
 ## Installation
 Run the code below in RStudio to install the package 
 
 install.packages(c("miniUI", "rstudioapi"))
 
-install.packages("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.5.9.tar.gz", repos=NULL, type="source", method="libcurl")
+install.packages("https://github.com/epi-stats/RStudioTools/raw/master/RStudioTools_0.6.0.tar.gz", repos=NULL, type="source", method="libcurl")
 
 # To open the documentation
 ```
